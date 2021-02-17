@@ -1,0 +1,21 @@
+﻿@model FormAppTest.Models.FrontPageModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="text-center">
+    <h1 class="display-4">Welcome To All About Joshua Talltree</h1>
+    <p>And... <a href="~/css/File_000.jpeg">This is me....</a>.</p>
+</div>
+<div class="text-dark text-md-left border-dark box-shadow">
+    <div>@Model.MyMessage </div>
+    <div>@Model.FirstName</div>
+    <div>@Model.LastName</div>
+    <div>@Model.Age</div>
+    <div>@Model.homeTown</div>
+    <div>@Model.homeState</div>
+    <div>
+        <div><p>
+            I am, orginally from Northern California but I, now, reside in San Antonio,Texas. I moved to Texas about 6 months ago and began coding 3 months ago. My main goal is to help those on need and to become an, eventual, professional web/app developer.
+        </p></div>
+    </div>
+</div>
